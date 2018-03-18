@@ -6,3 +6,6 @@ https://github.com/ggsantos/Mahjong-Planning/wiki
 
 # Trello
 https://trello.com/b/Xfmw2oSB/mahjong-planning
+
+# Artigo
+https://pt.sharelatex.com/read/hyjkvqvkjvwm
