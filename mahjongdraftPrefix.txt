@@ -1,0 +1,342 @@
+(role east)
+(role west)
+(role south)
+(role north)
+
+piece(bamboo_1_0). piece(circle_1_0). piece(char_1_0).
+piece(bamboo_2_0). piece(circle_2_0). piece(char_2_0).
+piece(bamboo_3_0). piece(circle_3_0). piece(char_3_0).
+piece(bamboo_4_0). piece(circle_4_0). piece(char_4_0).
+piece(bamboo_5_0). piece(circle_5_0). piece(char_5_0).
+piece(bamboo_6_0). piece(circle_6_0). piece(char_6_0).
+piece(bamboo_7_0). piece(circle_7_0). piece(char_7_0).
+piece(bamboo_8_0). piece(circle_8_0). piece(char_8_0).
+piece(bamboo_9_0). piece(circle_9_0). piece(char_9_0).
+piece(east_wind_0). piece(south_wind_0). piece(west_wind_0). piece(north_wind_0).
+piece(red_dragon_0). piece(white_dragon_0). piece(green_dragon_0).
+piece(bamboo_1_1). piece(circle_1_1). piece(char_1_1).
+piece(bamboo_2_1). piece(circle_2_1). piece(char_2_1).
+piece(bamboo_3_1). piece(circle_3_1). piece(char_3_1).
+piece(bamboo_4_1). piece(circle_4_1). piece(char_4_1).
+piece(bamboo_5_1). piece(circle_5_1). piece(char_5_1).
+piece(bamboo_6_1). piece(circle_6_1). piece(char_6_1).
+piece(bamboo_7_1). piece(circle_7_1). piece(char_7_1).
+piece(bamboo_8_1). piece(circle_8_1). piece(char_8_1).
+piece(bamboo_9_1). piece(circle_9_1). piece(char_9_1).
+piece(east_wind_1). piece(south_wind_1). piece(west_wind_1). piece(north_wind_1).
+piece(red_dragon_1). piece(white_dragon_1). piece(green_dragon_1).
+piece(bamboo_1_2). piece(circle_1_2). piece(char_1_2).
+piece(bamboo_2_2). piece(circle_2_2). piece(char_2_2).
+piece(bamboo_3_2). piece(circle_3_2). piece(char_3_2).
+piece(bamboo_4_2). piece(circle_4_2). piece(char_4_2).
+piece(bamboo_5_2). piece(circle_5_2). piece(char_5_2).
+piece(bamboo_6_2). piece(circle_6_2). piece(char_6_2).
+piece(bamboo_7_2). piece(circle_7_2). piece(char_7_2).
+piece(bamboo_8_2). piece(circle_8_2). piece(char_8_2).
+piece(bamboo_9_2). piece(circle_9_2). piece(char_9_2).
+piece(east_wind_2). piece(south_wind_2). piece(west_wind_2). piece(north_wind_2).
+piece(red_dragon_2). piece(white_dragon_2). piece(green_dragon_2).
+piece(bamboo_1_3). piece(circle_1_3). piece(char_1_3).
+piece(bamboo_2_3). piece(circle_2_3). piece(char_2_3).
+piece(bamboo_3_3). piece(circle_3_3). piece(char_3_3).
+piece(bamboo_4_3). piece(circle_4_3). piece(char_4_3).
+piece(bamboo_5_3). piece(circle_5_3). piece(char_5_3).
+piece(bamboo_6_3). piece(circle_6_3). piece(char_6_3).
+piece(bamboo_7_3). piece(circle_7_3). piece(char_7_3).
+piece(bamboo_8_3). piece(circle_8_3). piece(char_8_3).
+piece(bamboo_9_3). piece(circle_9_3). piece(char_9_3).
+piece(east_wind_3). piece(south_wind_3). piece(west_wind_3). piece(north_wind_3).
+piece(red_dragon_3). piece(white_dragon_3). piece(green_dragon_3).
+
+bamboo(bamboo_1_0). circle(circle_1_0). char(char_1_0).
+bamboo(bamboo_2_0). circle(circle_2_0). char(char_2_0).
+bamboo(bamboo_3_0). circle(circle_3_0). char(char_3_0).
+bamboo(bamboo_4_0). circle(circle_4_0). char(char_4_0).
+bamboo(bamboo_5_0). circle(circle_5_0). char(char_5_0).
+bamboo(bamboo_6_0). circle(circle_6_0). char(char_6_0).
+bamboo(bamboo_7_0). circle(circle_7_0). char(char_7_0).
+bamboo(bamboo_8_0). circle(circle_8_0). char(char_8_0).
+bamboo(bamboo_9_0). circle(circle_9_0). char(char_9_0).
+wind(east_wind_0). wind(south_wind_0). wind(west_wind_0). wind(north_wind_0).
+dragon(red_dragon_0). dragon(white_dragon_0). dragon(green_dragon_0).
+bamboo(bamboo_1_1). circle(circle_1_1). char(char_1_1).
+bamboo(bamboo_2_1). circle(circle_2_1). char(char_2_1).
+bamboo(bamboo_3_1). circle(circle_3_1). char(char_3_1).
+bamboo(bamboo_4_1). circle(circle_4_1). char(char_4_1).
+bamboo(bamboo_5_1). circle(circle_5_1). char(char_5_1).
+bamboo(bamboo_6_1). circle(circle_6_1). char(char_6_1).
+bamboo(bamboo_7_1). circle(circle_7_1). char(char_7_1).
+bamboo(bamboo_8_1). circle(circle_8_1). char(char_8_1).
+bamboo(bamboo_9_1). circle(circle_9_1). char(char_9_1).
+wind(east_wind_1). wind(south_wind_1). wind(west_wind_1). wind(north_wind_1).
+dragon(red_dragon_1). dragon(white_dragon_1). dragon(green_dragon_1).
+bamboo(bamboo_1_2). circle(circle_1_2). char(char_1_2).
+bamboo(bamboo_2_2). circle(circle_2_2). char(char_2_2).
+bamboo(bamboo_3_2). circle(circle_3_2). char(char_3_2).
+bamboo(bamboo_4_2). circle(circle_4_2). char(char_4_2).
+bamboo(bamboo_5_2). circle(circle_5_2). char(char_5_2).
+bamboo(bamboo_6_2). circle(circle_6_2). char(char_6_2).
+bamboo(bamboo_7_2). circle(circle_7_2). char(char_7_2).
+bamboo(bamboo_8_2). circle(circle_8_2). char(char_8_2).
+bamboo(bamboo_9_2). circle(circle_9_2). char(char_9_2).
+wind(east_wind_2). wind(south_wind_2). wind(west_wind_2). wind(north_wind_2).
+dragon(red_dragon_2). dragon(white_dragon_2). dragon(green_dragon_2).
+bamboo(bamboo_1_3). circle(circle_1_3). char(char_1_3).
+bamboo(bamboo_2_3). circle(circle_2_3). char(char_2_3).
+bamboo(bamboo_3_3). circle(circle_3_3). char(char_3_3).
+bamboo(bamboo_4_3). circle(circle_4_3). char(char_4_3).
+bamboo(bamboo_5_3). circle(circle_5_3). char(char_5_3).
+bamboo(bamboo_6_3). circle(circle_6_3). char(char_6_3).
+bamboo(bamboo_7_3). circle(circle_7_3). char(char_7_3).
+bamboo(bamboo_8_3). circle(circle_8_3). char(char_8_3).
+bamboo(bamboo_9_3). circle(circle_9_3). char(char_9_3).
+wind(east_wind_3). wind(south_wind_3). wind(west_wind_3). wind(north_wind_3).
+dragon(red_dragon_3). dragon(white_dragon_3). dragon(green_dragon_3).
+
+one(bamboo_1_0). one(circle_1_0). one(char_1_0).
+two(bamboo_2_0). two(circle_2_0). two(char_2_0).
+three(bamboo_3_0). three(circle_3_0). three(char_3_0).
+four(bamboo_4_0). four(circle_4_0). four(char_4_0).
+five(bamboo_5_0). five(circle_5_0). five(char_5_0).
+six(bamboo_6_0). six(circle_6_0). six(char_6_0).
+seven(bamboo_7_0). seven(circle_7_0). seven(char_7_0).
+eight(bamboo_8_0). eight(circle_8_0). eight(char_8_0).
+nine(bamboo_9_0). nine(circle_9_0). nine(char_9_0).
+east(east_wind_0). south(south_wind_0). west(west_wind_0). north(north_wind_0).
+red(red_dragon_0). white(white_dragon_0). green(green_dragon_0).
+one(bamboo_1_1). one(circle_1_1). one(char_1_1).
+two(bamboo_2_1). two(circle_2_1). two(char_2_1).
+three(bamboo_3_1). three(circle_3_1). three(char_3_1).
+four(bamboo_4_1). four(circle_4_1). four(char_4_1).
+five(bamboo_5_1). five(circle_5_1). five(char_5_1).
+six(bamboo_6_1). six(circle_6_1). six(char_6_1).
+seven(bamboo_7_1). seven(circle_7_1). seven(char_7_1).
+eight(bamboo_8_1). eight(circle_8_1). eight(char_8_1).
+nine(bamboo_9_1). nine(circle_9_1). nine(char_9_1).
+east(east_wind_1). south(south_wind_1). west(west_wind_1). north(north_wind_1).
+red(red_dragon_1). white(white_dragon_1). green(green_dragon_1).
+one(bamboo_1_2). one(circle_1_2). one(char_1_2).
+two(bamboo_2_2). two(circle_2_2). two(char_2_2).
+three(bamboo_3_2). three(circle_3_2). three(char_3_2).
+four(bamboo_4_2). four(circle_4_2). four(char_4_2).
+five(bamboo_5_2). five(circle_5_2). five(char_5_2).
+six(bamboo_6_2). six(circle_6_2). six(char_6_2).
+seven(bamboo_7_2). seven(circle_7_2). seven(char_7_2).
+eight(bamboo_8_2). eight(circle_8_2). eight(char_8_2).
+nine(bamboo_9_2). nine(circle_9_2). nine(char_9_2).
+east(east_wind_2). south(south_wind_2). west(west_wind_2). north(north_wind_2).
+red(red_dragon_2). white(white_dragon_2). green(green_dragon_2).
+one(bamboo_1_3). one(circle_1_3). one(char_1_3).
+two(bamboo_2_3). two(circle_2_3). two(char_2_3).
+three(bamboo_3_3). three(circle_3_3). three(char_3_3).
+four(bamboo_4_3). four(circle_4_3). four(char_4_3).
+five(bamboo_5_3). five(circle_5_3). five(char_5_3).
+six(bamboo_6_3). six(circle_6_3). six(char_6_3).
+seven(bamboo_7_3). seven(circle_7_3). seven(char_7_3).
+eight(bamboo_8_3). eight(circle_8_3). eight(char_8_3).
+nine(bamboo_9_3). nine(circle_9_3). nine(char_9_3).
+east(east_wind_3). south(south_wind_3). west(west_wind_3). north(north_wind_3).
+red(red_dragon_3). white(white_dragon_3). green(green_dragon_3).
+
+(<= (base (or ?l1 ?l2)) (not (and (not ?l1) (not ?l2))))
+(<= (base (xor ?l1 ?l2)) (and (or ?l1 ?l2) (not (and ?l1 ?l2))))
+(<= (base (same ?p1 ?p2)) (and (sameType ?p1 ?p2) (sameValue ?p1 ?p2)))
+(<= (base (sametype ?p1 ?p2)) (or (or (or (or (or  (and (bamboo ?p1) (bamboo ?p2))) (and (circle ?p1) (circle ?p2))) (and (character ?p1) (character ?p2))) (and (dragon ?p1) (dragon ?p2))) (and (wind ?p1) (wind ?p2))))
+(<= (base (samevalue ?p1 ?p2)) (or (samevaluedragon (samevaluenum ?p1 ?p2) (samevaluewind ?p1 ?p2)) (or (samevaluenum ?p1 ?p2) (samevaluewind ?p1 ?p2))))
+(<= (base (samevaluenum ?p1 ?p2)) (or (or (or (or (or (or (or (or (or  (and (one ?p2) (one ?p1))) (and (two ?p2) (two ?p1))) (and (three ?p2) (three ?p1))) (and (four ?p2) (four ?p1))) (and (five ?p2) (five ?p1))) (and (six ?p2) (six ?p1))) (and (seven ?p2) (seven ?p1))) (and (eight ?p2) (eight ?p1))) (and (nine ?p2) (nine ?p1))))
+(<= (base (samevaluewind ?p1 ?p2)) (or (or (or (or  (and (east ?p2) (east ?p1))) (and (south ?p2) (south ?p1))) (and (west ?p2) (west ?p1))) (and (north ?p2) (north ?p1))))
+(<= (base (samevaluedragon ?p1 ?p2)) (or (or (or  (and (red ?p2) (red ?p1))) (and (white ?p2) (white ?p1))) (and (green ?p2) (green ?p1))))
+(<= (base (seq ?p1 ?p2 ?p3)) (or (or (or (or (or (or (or (or (or (or (or (or (and (and (one ?p1) (two ?p2)) (three ?p3)) (and (and (one ?p1) (two ?p3)) (three ?p2))) (and (and (one ?p2) (two ?p1)) (three ?p3))) (and (and (one ?p2) (two ?p3)) (three ?p1))) (and (and (one ?p2) (two ?p3)) (three ?p1))) (and (and (one ?p3) (two ?p1)) (three ?p2))) (and (and (one ?p3) (two ?p2)) (three ?p1))) (or (or (or (or (or (or (and (and (two ?p1) (three ?p2)) (four ?p3)) (and (and (two ?p1) (three ?p3)) (four ?p2))) (and (and (two ?p2) (three ?p1)) (four ?p3))) (and (and (two ?p2) (three ?p3)) (four ?p1))) (and (and (two ?p2) (three ?p3)) (four ?p1))) (and (and (two ?p3) (three ?p1)) (four ?p2))) (and (and (two ?p3) (three ?p2)) (four ?p1)))) (or (or (or (or (or (or (and (and (three ?p1) (four ?p2)) (five ?p3)) (and (and (three ?p1) (four ?p3)) (five ?p2))) (and (and (three ?p2) (four ?p1)) (five ?p3))) (and (and (three ?p2) (four ?p3)) (five ?p1))) (and (and (three ?p2) (four ?p3)) (five ?p1))) (and (and (three ?p3) (four ?p1)) (five ?p2))) (and (and (three ?p3) (four ?p2)) (five ?p1)))) (or (or (or (or (or (or (and (and (four ?p1) (five ?p2)) (six ?p3)) (and (and (four ?p1) (five ?p3)) (six ?p2))) (and (and (four ?p2) (five ?p1)) (six ?p3))) (and (and (four ?p2) (five ?p3)) (six ?p1))) (and (and (four ?p2) (five ?p3)) (six ?p1))) (and (and (four ?p3) (five ?p1)) (six ?p2))) (and (and (four ?p3) (five ?p2)) (six ?p1)))) (or (or (or (or (or (or (and (and (five ?p1) (six ?p2)) (seven ?p3)) (and (and (five ?p1) (six ?p3)) (seven ?p2))) (and (and (five ?p2) (six ?p1)) (seven ?p3))) (and (and (five ?p2) (six ?p3)) (seven ?p1))) (and (and (five ?p2) (six ?p3)) (seven ?p1))) (and (and (five ?p3) (six ?p1)) (seven ?p2))) (and (and (five ?p3) (six ?p2)) (seven ?p1)))) (or (or (or (or (or (or (and (and (six ?p1) (seven ?p2)) (eight ?p3)) (and (and (six ?p1) (seven ?p3)) (eight ?p2))) (and (and (six ?p2) (seven ?p1)) (eight ?p3))) (and (and (six ?p2) (seven ?p3)) (eight ?p1))) (and (and (six ?p2) (seven ?p3)) (eight ?p1))) (and (and (six ?p3) (seven ?p1)) (eight ?p2))) (and (and (six ?p3) (seven ?p2)) (eight ?p1)))) (or (or (or (or (or (or (and (and (seven ?p1) (eight ?p2)) (nine ?p3)) (and (and (seven ?p1) (eight ?p3)) (nine ?p2))) (and (and (seven ?p2) (eight ?p1)) (nine ?p3))) (and (and (seven ?p2) (eight ?p3)) (nine ?p1))) (and (and (seven ?p2) (eight ?p3)) (nine ?p1))) (and (and (seven ?p3) (eight ?p1)) (nine ?p2))) (and (and (seven ?p3) (eight ?p2)) (nine ?p1)))))
+(<= (base (pon ?p1 ?p2 ?p3)) (and (same ?p1 ?p2) (same ?p2 ?p3)))
+(<= (base (havemeld ?player ?p1 ?p2 ?p3)) (and (and (and (and (holds ?player ?p1) (holds ?player ?p2)) (holds ?player ?p3)) (or (seq ?p1 ?p2 ?p3) (pon ?p1 ?p2 ?p3))) (and (distinct ?p1 ?p2) (distinct ?p2 ?p3))))
+(<= (base (havepair ?player ?p1 ?p2)) (and (and (same ?p1 ?p2) (distinct ?p1 ?p2)) (and (holds ?player ?p1) (holds ?player ?p2))))
+(<= (base (inwall ?piece)) (piece ?piece))
+(<= (base (indeadwall ?piece)) (piece ?piece))
+(base (buy ?player ?piece))
+(base (discard ?player ?piece))
+(base (holds ?player ?piece))
+(<= (base (tsumo ?player ?p0 ?p1 ?p2 ?p3 ?p4 ?p5 ?p6 ?p7 ?p8 ?p9 ?p10 ?p11 ?p12 ?p13)) (validhand ?player ?p0 ?p1 ?p2 ?p3 ?p4 ?p5 ?p6 ?p7 ?p8 ?p9 ?p10 ?p11 ?p12 ?p13))
+(<= (base (validhand ?player ?p0 ?p1 ?p2 ?p3 ?p4 ?p5 ?p6 ?p7 ?p8 ?p9 ?p10 ?p11 ?p12 ?p13)) (and (havemeld ?p0 ?p1 ?p2) (and (havemeld ?p4 ?p5 ?p6) (and (havemeld ?p7 ?p8 ?p9) (and (havemeld ?p10 ?p11 ?p12) (havepair ?p13 ?p14))))))
+(base (win ?player))
+
+(init (holds east bamboo_5_2))
+(init (holds east char_2_3))
+(init (holds east char_2_0))
+(init (holds east char_1_1))
+(init (holds east char_1_3))
+(init (holds east north_wind_0))
+(init (holds east south_wind_1))
+(init (holds east circle_1_0))
+(init (holds east char_9_3))
+(init (holds east green_dragon_3))
+(init (holds east north_wind_0))
+(init (holds east circle_2_3))
+(init (holds east east_wind_3))
+(init (holds south circle_7_0))
+(init (holds south char_1_2))
+(init (holds south circle_3_0))
+(init (holds south char_4_2))
+(init (holds south north_wind_2))
+(init (holds south circle_2_3))
+(init (holds south circle_4_1))
+(init (holds south circle_1_2))
+(init (holds south circle_7_0))
+(init (holds south circle_1_2))
+(init (holds south char_9_1))
+(init (holds south char_4_0))
+(init (holds south bamboo_1_3))
+(init (holds west char_2_3))
+(init (holds west red_dragon_0))
+(init (holds west circle_8_2))
+(init (holds west char_6_2))
+(init (holds west circle_1_3))
+(init (holds west char_4_1))
+(init (holds west circle_9_3))
+(init (holds west char_3_0))
+(init (holds west bamboo_2_1))
+(init (holds west east_wind_1))
+(init (holds west south_wind_1))
+(init (holds west circle_5_3))
+(init (holds west white_dragon_1))
+(init (holds north west_wind_1))
+(init (holds north white_dragon_3))
+(init (holds north char_5_0))
+(init (holds north char_2_1))
+(init (holds north char_2_3))
+(init (holds north char_7_3))
+(init (holds north char_7_3))
+(init (holds north circle_1_2))
+(init (holds north bamboo_1_2))
+(init (holds north south_wind_2))
+(init (holds north circle_3_2))
+(init (holds north bamboo_5_3))
+(init (holds north bamboo_5_0))
+(init (inwall bamboo_1_0))
+(init (inwall char_1_0))
+(init (inwall bamboo_2_0))
+(init (inwall circle_2_0))
+(init (inwall bamboo_3_0))
+(init (inwall bamboo_4_0))
+(init (inwall circle_4_0))
+(init (inwall circle_5_0))
+(init (inwall bamboo_6_0))
+(init (inwall circle_6_0))
+(init (inwall char_6_0))
+(init (inwall bamboo_7_0))
+(init (inwall char_7_0))
+(init (inwall bamboo_8_0))
+(init (inwall circle_8_0))
+(init (inwall char_8_0))
+(init (inwall bamboo_9_0))
+(init (inwall circle_9_0))
+(init (inwall char_9_0))
+(init (inwall east_wind_0))
+(init (inwall south_wind_0))
+(init (inwall west_wind_0))
+(init (inwall white_dragon_0))
+(init (inwall green_dragon_0))
+(init (inwall bamboo_1_1))
+(init (inwall circle_1_1))
+(init (inwall circle_2_1))
+(init (inwall bamboo_3_1))
+(init (inwall circle_3_1))
+(init (inwall char_3_1))
+(init (inwall bamboo_4_1))
+(init (inwall bamboo_5_1))
+(init (inwall circle_5_1))
+(init (inwall char_5_1))
+(init (inwall bamboo_6_1))
+(init (inwall circle_6_1))
+(init (inwall char_6_1))
+(init (inwall bamboo_7_1))
+(init (inwall circle_7_1))
+(init (inwall char_7_1))
+(init (inwall bamboo_8_1))
+(init (inwall circle_8_1))
+(init (inwall char_8_1))
+(init (inwall bamboo_9_1))
+(init (inwall circle_9_1))
+(init (inwall north_wind_1))
+(init (inwall red_dragon_1))
+(init (inwall green_dragon_1))
+(init (inwall bamboo_2_2))
+(init (inwall circle_2_2))
+(init (inwall char_2_2))
+(init (inwall bamboo_3_2))
+(init (inwall char_3_2))
+(init (inwall bamboo_4_2))
+(init (inwall circle_4_2))
+(init (inwall circle_5_2))
+(init (inwall char_5_2))
+(init (inwall bamboo_6_2))
+(init (inwall circle_6_2))
+(init (inwall bamboo_7_2))
+(init (inwall circle_7_2))
+(init (inwall char_7_2))
+(init (inwall bamboo_8_2))
+(init (inwall char_8_2))
+(init (inwall bamboo_9_2))
+(init (inwall circle_9_2))
+(init (inwall char_9_2))
+(init (inwall east_wind_2))
+(init (inwall west_wind_2))
+(init (inwall red_dragon_2))
+(init (inwall white_dragon_2))
+(init (inwall green_dragon_2))
+(init (inwall bamboo_2_3))
+(init (inwall bamboo_3_3))
+(init (inwall circle_3_3))
+(init (inwall char_3_3))
+(init (inwall bamboo_4_3))
+(init (inwall circle_4_3))
+(init (inwall char_4_3))
+(init (inwall char_5_3))
+(init (inwall bamboo_6_3))
+(init (inwall circle_6_3))
+(init (inwall char_6_3))
+(init (inwall bamboo_7_3))
+(init (inwall circle_7_3))
+(init (inwall bamboo_8_3))
+(init (inwall circle_8_3))
+(init (inwall char_8_3))
+(init (inwall bamboo_9_3))
+(init (inwall south_wind_3))
+(init (inwall west_wind_3))
+(init (inwall north_wind_3))
+(init (inwall red_dragon_3))
+(init (control east))
+
+
+(<= (legal (random) (buy ?player ?piece)) (and (role ?player) (distinct random ?player)) (and (true (inwall ?piece)) (control ?player)))
+
+(<= (legal (random) (discard ?player ?piece)) (and (role ?player) (distinct random ?player)) (and (true (holds ?player ?piece)) (control ?player)))
+	
+(<= (legal ?r (tsumo ?r ?p0 ?p1 ?p2 ?p3 ?p4 ?p5 ?p6 ?p7 ?p8 ?p9 ?p10 ?p11 ?p12 ?p13)) 
+    (and (control ?r) (and (true (holds ?r ?p0)) (and (true (holds ?r ?p1)) 
+    (and (true (holds ?r ?p2)) (and (true (holds ?r ?p3)) (and (true (holds ?r ?p4)) 
+    (and (true (holds ?r ?p5)) (and (true (holds ?r ?p6)) (and(true (holds ?r ?p7))
+    (and (true (holds ?r ?p8)) (and (true (holds ?r ?p9)) (and (true (holds ?r ?p10))
+    (and (true (holds ?r ?p11)) (and (true (holds ?r ?p12)) (true (holds ?r ?p13)))))))))))))))))
+
+
+(<= (next (control south)) (true (control east)) (does (discard ?player ?piece)))
+
+(<= (next (control west)) (true (control south)) (does (discard ?player ?piece)))
+
+(<= (next (control north)) (true (control west)) (does (discard ?player ?piece)))
+
+(<= (next (control east)) (true (control north)) (does (discard ?player ?piece)))
+	
+(<= (next (holds ?player ?piece)) (does (buy ?player ?piece)))
+	
+(<= (next (not (inwall ?piece))) (does (holds ?player ?piece)))
+	
+(<= (next (not (holds ?player ?piece))) (not (does (holds ?player ?piece))) (does (holds ?player ?piece2)))
+	
+(<= (next (not (holds ?player ?piece))) (does (discard ?player ?piece)))
+	
+(<= (next (win ?player) (does tsumo ?player ?p0 ?p1 ?p2 ?p3 ?p4 ?p5 ?p6 ?p7 ?p8 ?p9 ?p10 ?p11 ?p12 ?p13))
+
+(<= (sees ?player ?piece) (does (buy ?player ?piece)))
+
+(<= (terminal) (true(win ?p)))

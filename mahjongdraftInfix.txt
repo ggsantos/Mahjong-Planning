@@ -1,0 +1,140 @@
+
+;Roles:
+role(east)
+role(south)
+role(west)
+role(north)
+
+;Pecas
+piece(bamboo_1). piece(bamboo_2). piece(bamboo_3). piece(bamboo_4). piece(bamboo_5). piece(bamboo_6). piece(bamboo_7). piece(bamboo_8). piece(bamboo_9).
+
+piece(circle_1). piece(circle_2). piece(circle_3). piece(circle_4). piece(circle_5). piece(circle_6). piece(circle_7). piece(circle_8). piece(circle_9).
+
+piece(char_1). piece(char_2). piece(char_3). piece(char_4). piece(char_5). piece(char_6). piece(char_7). piece(char_8). piece(char_9).
+
+piece(red_dragon). piece(white_dragon). piece(green_dragon).
+
+piece(east_wind). piece(south_wind). piece(west_wind). piece(north_wind).
+
+bamboo(bamboo_1)
+
+
+;Sequencias
+seq(bamboo_1, bamboo_2, bamboo_3). seq(bamboo_2, bamboo_3, bamboo_4). seq(bamboo_3, bamboo_4, bamboo_5). seq(bamboo_4, bamboo_5, bamboo_6).
+seq(bamboo_5, bamboo_6, bamboo_7). seq(bamboo_7, bamboo_8, bamboo_9).
+
+seq(circle_1, circle_2, circle_3). seq(circle_2, circle_3, circle_4). seq(circle_3, circle_4, circle_5). seq(circle_4, circle_5, circle_6).
+seq(circle_5, circle_6, circle_7). seq(circle_7, circle_8, circle_9).
+
+seq(char_1, char_2, char_3). seq(char_2, char_3, char_4). seq(char_3, char_4, char_5). seq(char_4, char_5, char_6).
+seq(char_5, char_6, char_7). seq(char_7, char_8, char_9).
+
+;Predicados:
+base(same(P1, P2)) :- sameType(P1,P2) & sameValue(P1,P2)
+
+base(or(L1, L2)) :- ~((~L1) & (~L2)) 
+
+base(sameType(P1, P2) :- or(or(or((bamboo(P1)&bamboo(P2)),(circle(P1)&circle(P2))),(character(P1)&character(P2))),(or((dragon(P1)&dragon(P2)),(wind(P1)&wind(P2)))))
+
+base(sameValueNum(P1, P2)) :- or((or((or((or((or((or((or((or((one(P1)&one(P2)),(two(P1)&two(P2))),(three(P1)&three(P2))),(four(P1)&four(P2)))),(five(P1)&five(P2)))),(six(P1)&six(P2))),(seven(P1)&seven(P2)))),(eight(P1)&eight(P2)))),(nine(P1)&nine(P2)))
+
+base(sameValueDragon(P1,P2)) :- or((or((green(P1)&green(P2)),(white(P1)&white(P2)))),(red(P1)&red(P2)))
+
+base(sameValueWind(P1,P2)) :- or((or((or((south(P1)&south(P2)),(north(P1)&north(P2)))),(west(P1)&west(P2)))),(east(P1)&east(P2)))
+
+base(sameValue(P1, P2)) :- or((or(sameValueNum(P1,P2),(sameValueDragon(P1,P2)))),(sameValueWind(P1,P2)))
+
+base(inwall(Piece)) :- piece(Piece)
+
+base(indeadwall(Piece)) :- piece(Piece)
+
+base(buy(Player, Piece))
+
+base(discard(Player, Piece))
+
+base(holds(Player, Piece))
+
+base(havePair(Player, pair(P0, P1)))
+
+base(haveMeld(Player, P0, P1, P2)) :- holds(Player, P0) & holds(Player, P1) & holds(Player, P2) & or(chi(P0, P1, P2), pon(P0, P1, P2))
+
+base(pair(P0, P1)) :- same(P0, P1) & distinct(P0,P1)
+
+base(tsumo(Player, P0, P1, P2, P3, P4, P5, P6, P7, P8, P9, P10, P11, P12, P13)) :- validHand(Player, P0, P1, P2, P3, P4, P5, P6, P7, P8, P9, P10, P11, P12, P13)
+
+base(validHand(Player, P0, P1, P2, P3, P4, P5, P6, P7, P8, P9, P10, P11, P12, P13))
+
+;Controles possiveis
+base(control(east))
+base(control(south))
+base(control(west))
+base(control(north))
+
+;Estado inicial:
+init(control(east))
+
+;Movimentos permitidos:
+
+;Compra da muralha. Apenas quem esta jogando ve.
+legal(random, buy(Player, Piece)) :- 
+	role(Player) &
+	distinct(random, Player) &
+	true(inwall(Piece)) &
+	control(Player)
+
+legal(random, discard(Player,Piece)) :-
+	role(Player) &
+	distinct(random, Player) &
+	true(holds(Player, Piece) &
+	control(Player)
+	
+legal(R, tsumo(R, P0, P1, P2, P3, P4, P5, P6, P7, P8, P9, P10, P11, P12, P13)) :-
+	true(control(R)) &
+	true(holds(R, P0)) &
+	true(holds(R, P1)) &
+	true(holds(R, P2)) &
+	true(holds(R, P3)) &
+	true(holds(R, P4)) &
+	true(holds(R, P5)) &
+	true(holds(R, P6)) &
+	true(holds(R, P7)) &
+	true(holds(R, P8)) &
+	true(holds(R, P9)) &
+	true(holds(R, P10)) &
+	true(holds(R, P11)) &
+	true(holds(R, P12)) &
+	true(holds(R, P13))
+
+;Nexts:
+next(control(south)) :- 
+	true(control(east)) &
+	does(discard(Player, Piece))
+	
+next(control(west)) :- 
+	true(control(south)) &
+	does(discard(Player, Piece))
+	
+next(control(north)) :- 
+	true(control(west)) &
+	does(discard(Player, Piece))
+	
+next(control(east)) :- 
+	true(control(north)) &
+	does(discard(Player, Piece))
+
+next(holds(Player, Piece)) :-
+	does(random, buy(Player, Piece))
+	
+next(~inwall(Piece)) :-
+	does(holds(Player, Piece))
+	
+next(discard(Player, Piece)) :-
+	~does(tsumo(Player)) &
+	does(holds(Player, Piece2))
+	
+next(~holds(Player, Piece)) :-
+	does(discard(Player, Piece))
+
+;Sees:
+sees(Player, Piece) :-
+	does(random, buy(Player, Piece))
